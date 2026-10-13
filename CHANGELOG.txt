@@ -1,0 +1,32 @@
+PHONECAM ALERT — CHANGELOG V11
+===============================
+
+REFONTE VISUELLE
+- Nouveau système visuel : espace de travail ivoire, navigation vert profond, accents citron vert et corail.
+- Réduction des effets lumineux, des dégradés et des contours brillants.
+- Hiérarchie typographique, marges, bordures et contrôles harmonisés.
+- En-têtes de page repensés en bandeaux de contrôle.
+- Navigation desktop repensée en barre horizontale pleine largeur ; tiroir latéral conservé sur petit écran.
+- État clair utilisé par défaut lors d’une nouvelle installation ; le bouton de thème conserve le basculement vers le mode sombre.
+
+RÉORGANISATION
+- Le flux caméra et les événements occupent le premier plan du tableau de bord ; les indicateurs passent après le flux.
+- Cartes de statistiques, panneau de code de liaison et indicateurs système redessinés.
+- Pages Caméras, Personnes, Alertes, Médiathèque, Appareils et Configuration harmonisées.
+- Contrôles et modales rafraîchis, sans suppression des fonctions existantes.
+- Affichage responsive renforcé pour les petites fenêtres et téléphones.
+
+STRUCTURE DES FICHIERS
+- Tous les fichiers HTML, CSS, JavaScript et texte sont à la racine du projet.
+- Les références relatives ont été mises à jour pour supprimer les dossiers css/ et js/.
+
+FONCTIONNALITÉS CONSERVÉES
+- Liaison PC / téléphone, flux caméra, enregistrement, capture photo, plein écran et audio caméra.
+- Détection de mouvement et envoi des captures automatiques.
+- Reconnaissance faciale locale, gestion des personnes et références photo.
+- Alertes, notifications, son d’alerte, batterie et états de connexion.
+- Médiathèque, filtres, modales, réglages de caméra, détection et apparence.
+
+VALIDATION
+- Vérification des références HTML, des identifiants, des scripts, des chemins et du contenu de l’archive.
+- Les tests statiques ne remplacent pas un essai caméra et connexion sur deux appareils.
